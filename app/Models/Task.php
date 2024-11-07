@@ -7,11 +7,11 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Task extends Model
 {
-    use HasFactory; 
+    use HasFactory;
     protected $fillable = [
         'title',
         'description',
         'is_completed',
-    ] ;
+    ];
     //
 }
